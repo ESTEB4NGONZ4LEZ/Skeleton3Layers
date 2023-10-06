@@ -1,9 +1,9 @@
 
-using API.Repository;
+using Infrastructure.Repository;
 using Core.Interface;
 using Infrastructure.Data;
 
-namespace API.UnitOfWork
+namespace Infrastructure.UnitOfWork
 {
     public class UnitOfWork : IUnitOfWork, IDisposable
     {

@@ -4,7 +4,7 @@ using Core.Interface;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace API.Repository
+namespace Infrastructure.Repository
 {
     public class GenericRepository<T> : IGeneric<T> where T : class
     {

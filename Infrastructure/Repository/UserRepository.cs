@@ -2,9 +2,10 @@
 using Core.Entities;
 using Core.Interface;
 using Infrastructure.Data;
+using Infrastructure.Repository;
 using Microsoft.EntityFrameworkCore;
 
-namespace API.Repository
+namespace Infrastructure.Repository
 {
     public class UserRepository : GenericRepository<User>, IUser
     {
